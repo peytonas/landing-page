@@ -1,0 +1,79 @@
+/* *{
+  border: 1px solid red;
+} */
+
+.carousel-img{
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.width{
+  max-width: 95vw;
+  margin-left: 1vw;
+}
+
+.devicon-size{
+  font-size: 3rem;
+}
+
+.family-img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid #ff6700
+}
+
+.navbar-devicon{
+  font-size: 1.5rem;
+}
+
+.overflow{
+  max-height: 33vh;
+  overflow: scroll;
+}
+
+.project-img{
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.bg {
+  width: 99vw;
+  max-height: 39vh;
+  background-image: linear-gradient(to right bottom, #ff6700 50%, #261447 49%);  
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container-fluid{
+  background-color: #261447;
+  min-height: 133vh;
+}
+
+.fa-trash-alt{
+  font-size: .7rem;
+}
+
+.btn.fab{
+  padding: .25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
