@@ -20,7 +20,7 @@
   max-height: 200px;
   max-width: 200px;
   border-radius: 50%;
-  border: 5px solid #ff6700
+  border: 5px solid #908a99
 }
 
 .navbar-devicon{
@@ -39,8 +39,8 @@
 
 .bg {
   width: 99vw;
-  max-height: 39vh;
-  background-image: linear-gradient(to right bottom, #ff6700 50%, #261447 49%);  
+  max-height: 35.5vh;
+  background-image: linear-gradient(to right bottom, #908a99 50%, #211a21 49%);  
 }
 
 .pointer {
@@ -48,7 +48,7 @@
 }
 
 .container-fluid{
-  background-color: #261447;
+  background-color: #211a21;
   min-height: 133vh;
 }
 
