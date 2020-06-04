@@ -1,7 +1,7 @@
 /* *{
   border: 1px solid red;
 } */
-
+@media only screen and (min-width: 768px){
 .carousel-img{
   max-height: 120px;
   max-width: 120px;
@@ -52,16 +52,78 @@
   min-height: 133vh;
 }
 
-.fa-trash-alt{
-  font-size: .7rem;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.btn.fab{
-  padding: .25rem;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+}
+
+@media only screen and (max-width: 767px){
+  .text-size {
+  font-size: 2rem;
+}
+
+.smaller-text-size {
+  font-size: 1rem;
+}
+
+  .carousel-img{
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.width{
+  max-width: 85vw;
+  margin-left: 3vw;
+}
+
+.devicon-size{
+  font-size: 1rem;
+}
+
+.family-img {
+  max-height: 150px;
+  max-width: 150px;
   border-radius: 50%;
-  display: flex;
-  align-items: left;
-  justify-content: left;
+  border: 5px solid #908a99
+}
+
+.navbar-devicon{
+  font-size: 1.5rem;
+}
+
+.overflow{
+  max-height: 50vh;
+  overflow: scroll;
+}
+
+.project-img{
+  max-height: 125px;
+  max-width: 125px;
+}
+
+.bg {
+  width: 99vw;
+  max-height: 35.5vh;
+  background-image: linear-gradient(to right bottom, #908a99 50%, #211a21 49%);  
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container-fluid{
+  background-color: #211a21;
+  min-height: 65vh;
 }
 
 body {
@@ -76,4 +138,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
 }
