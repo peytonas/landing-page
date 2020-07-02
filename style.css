@@ -8,12 +8,18 @@
 }
 
 .width{
-  max-width: 95vw;
-  margin-left: 1vw;
+  max-width: 94vw;
+  margin-left: 2vw;
 }
 
 .devicon-size{
   font-size: 3rem;
+}
+
+.icon-img{
+  max-height: 45px;
+  max-width: auto;
+  margin-left: .5rem;
 }
 
 .family-img {
@@ -28,7 +34,7 @@
 }
 
 .overflow{
-  max-height: 33vh;
+  max-height: 48vh;
   overflow: scroll;
 }
 
@@ -49,7 +55,7 @@
 
 .container-fluid{
   background-color: #211a21;
-  min-height: 137vh;
+  min-height: 155vh;
 }
 
 body {
