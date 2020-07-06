@@ -96,6 +96,11 @@ code {
   font-size: 1rem;
 }
 
+.icon-img{
+  max-height: 20px;
+  max-width: auto;
+}
+
 .family-img {
   max-height: 150px;
   max-width: 150px;
